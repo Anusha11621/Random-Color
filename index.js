@@ -9,7 +9,7 @@ for (let i = 1;i<=500;i++){
     box.textContent = i
     container.append(box)
 }
-
+console.log(body);
 document.addEventListener("mouseover",function(){
     let click = document.querySelectorAll('.box')
    
@@ -18,5 +18,5 @@ document.addEventListener("mouseover",function(){
         click[j].style.backgroundColor="#"+Math.floor(Math.random()*16777215).toString(16)
         // click.style.backgroundColor = "blue"
     }
-},true)
+})
 
